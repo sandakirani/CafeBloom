@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyOrders"
+    >
+
+    <LinearLayout
+        android:id="@+id/mainLayout_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1D1C1C"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/lily_script_one"
+        android:gravity="center"
+        android:text="Cafe"
+        android:textColor="#A95C33"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView_bloom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/caladea"
+        android:text="Bloom"
+        android:textColor="#A95C33"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/arrowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="←"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_margin="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/textView_savour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/caladea"
+        android:text="Savor the flavour of sip"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <LinearLayout
+        android:id="@+id/sectionBar_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        android:background="#3E3E3E"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Text over the section bar -->
+        <TextView
+            android:id="@+id/sectionText_notifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:fontFamily="@font/caladea"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:fadeScrollbars="false"
+        tools:ignore="UnknownId,UnknownIdInLayout"
+        android:scrollbarSize="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="250dp">
+
+            <TextView
+                android:id="@+id/sectionText_recent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent"
+                android:fontFamily="@font/caladea"
+                android:textSize="25sp"
+                android:textColor="#A95C33"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp" />
+
+            <LinearLayout
+                android:id="@+id/notifications_recent_bar"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:background="@drawable/processing_notification"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/order_success_image"
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_image"
+                    android:contentDescription="My Image"
+                    android:clipToOutline="true"
+                    android:src="@drawable/order_ready" />
+
+                <TextView
+                    android:id="@+id/order_success_text"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/caladea"
+                    android:text="Good news! Your order is now being processed and will be on its way soon."
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sectionText_order_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yesterday"
+                android:fontFamily="@font/caladea"
+                android:textSize="25sp"
+                android:textColor="#A95C33"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp" />
+
+            <LinearLayout
+                android:id="@+id/order_accepted_notification"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_background"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/myImageView_order_accepted"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_image"
+                    android:contentDescription="My Image"
+                    android:clipToOutline="true"
+                    android:src="@drawable/delay" />
+
+                <TextView
+                    android:id="@+id/order_accepted_text"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/caladea"
+                    android:gravity="center"
+                    android:text="Your order is accepted.You will be notified when the order is ready."
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/order_delay_notification"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_background"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/order_delay_icon"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="My Image"
+                    android:clipToOutline="true"
+                    android:background="@drawable/round_image"
+                    android:src="@drawable/delay" />
+
+                <TextView
+                    android:id="@+id/prder_delay_text"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Apologies for the delay! Your order will be ready shortly."
+                    android:fontFamily="@font/caladea"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/order_ready_notification"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_background"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/myImageView_order_ready"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_image"
+                    android:contentDescription="My Image"
+                    android:clipToOutline="true"
+                    android:src="@drawable/delay" />
+
+                <TextView
+                    android:id="@+id/order_readyto_pickedup"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/caladea"
+                    android:gravity="center"
+                    android:text="Your order is ready to pickup."
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/order_pickedup_notification"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_background"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/myImageView_order_pickedup"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_image"
+                    android:contentDescription="My Image"
+                    android:clipToOutline="true"
+                    android:src="@drawable/picked_up" />
+
+                <TextView
+                    android:id="@+id/order_successfully_pickedup"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/caladea"
+                    android:gravity="center"
+                    android:text="Your order has been picked up. Enjoy your coffee and treats!"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/order_cancel_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 Nov,2024"
+                android:fontFamily="@font/caladea"
+                android:textSize="25sp"
+                android:textColor="#A95C33"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp" />
+
+            <LinearLayout
+                android:id="@+id/cancelled_item"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_background_red"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/cancelled_icon"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="My Image"
+                    android:clipToOutline="true"
+                    android:background="@drawable/round_image"
+                    android:src="@drawable/cancel" />
+
+                <TextView
+                    android:id="@+id/cancelled_text_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We're sorry! Your order has been cancelled. Please contact us if youhave any questions"
+                    android:fontFamily="@font/caladea"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

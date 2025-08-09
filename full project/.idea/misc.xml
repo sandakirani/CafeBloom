@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/6th sem/OPTIONAL/BECS 32272 -Mobile Application Development/project/CafeBloom/app/src/main/res/layout/activity_header.xml" value="0.25" />
+        <entry key="..\:/6th sem/OPTIONAL/BECS 32272 -Mobile Application Development/project/CafeBloom/app/src/main/res/layout/cart_item_view.xml" value="0.25" />
+        <entry key="..\:/6th sem/OPTIONAL/BECS 32272 -Mobile Application Development/project/CafeBloom/app/src/main/res/layout/forget_activity.xml" value="0.25" />
+        <entry key="..\:/6th sem/OPTIONAL/BECS 32272 -Mobile Application Development/project/CafeBloom/app/src/main/res/layout/fragment_brewing.xml" value="0.1716485507246377" />
+        <entry key="..\:/6th sem/OPTIONAL/BECS 32272 -Mobile Application Development/project/CafeBloom/app/src/main/res/layout/fragment_ice_coffee.xml" value="0.25" />
+        <entry key="..\:/6th sem/OPTIONAL/BECS 32272 -Mobile Application Development/project/CafeBloom/app/src/main/res/layout/fragment_shake.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/drawable/button_background.xml" value="0.186" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/drawable/select_button.xml" value="0.186" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/font/caladea.xml" value="0.2609375" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_breakfast.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_brewing_coffee.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_cart.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_coke.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_edit_profile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header.xml" value="0.1" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_breakfast.xml" value="0.2359375" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_brewing_coffee.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_coke.xml" value="0.2359375" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_hot_drinks.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_hotdrinks.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_icedcoffee.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_menu.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_notification.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_header_shake.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_hot_coffee.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_hot_drinks.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_iced_coffee.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_menu.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_personal_info.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_profile.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_shake.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/activity_signup.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/addtocart.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/aeropress.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/affogato.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/avacadotoast.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/button_background.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/cancel.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/cart_item_view.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/chailatte.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/change_activity.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/chemax.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/cherrycoke.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/classiciced.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/classicicedcoke.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/classicvanilladreamshake.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/cokefloat.xml" value="0.146875" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/coldbrew.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/confirmorder.xml" value="0.1" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/cookies.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/forget_activity.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_breckfast.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_brewing.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_coke.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_hot_drinks.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_ice_coffee.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_menu.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/fragment_shake.xml" value="0.4" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/helpandsupport.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/icecappuccino.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/login_again_activity.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/layout/notifications.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/sandakirani/Desktop/CafeBloom/app/src/main/res/menu/bottom_menu.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/drawable/button_combined.xml" value="0.17" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/drawable/circle_shape_profile.xml" value="0.145" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/drawable/select_button.xml" value="0.18" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/drawable/unselected_buttons.xml" value="0.17" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/font/caladea.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_breakfast.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_brewing_coffee.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_coke.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_hot_coffee.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_hot_drinks.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_iced_coffee.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_personal_info.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_shake.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_signup.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/cancel.xml" value="0.2359375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/cart_item.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/change_activity.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/forget_activity.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/ginger.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/hotapple.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/hotcappuccino1.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/hotlemon1.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/icecappuccino.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/icedcaremel1.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/icedcoconut.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/icedlatte.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/icedmocha.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/iconicchocolate.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/latte.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/lemonmintcoke.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/login_again_activity.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/macchiato.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/matchalatte.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/milkrice.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/mocha.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/mokapot.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/myorders.xml" value="0.2359375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/nutella.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/otp_activity.xml" value="0.25" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/pancake.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/peanutty.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/picked_up.xml" value="0.2359375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/pourover.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/seafood.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/signature.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/siphon.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/spicecoke.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/strawberrysensation.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/stringhopper.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/tropicalcoke.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/tropicalfruit.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/turkish.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/turmericlatte.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/vanillacoke.xml" value="0.234375" />
+        <entry key="..\:/Users/sandakirani/Desktop/coffee/CafeBloom/app/src/main/res/layout/western.xml" value="0.234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

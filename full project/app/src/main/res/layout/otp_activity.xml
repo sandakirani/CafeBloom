@@ -1,0 +1,241 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D1C1C"
+    tools:context=".OtpActivity">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        android:src="?attr/actionModeCloseDrawable"
+        android:tint="@android:color/white"
+        android:onClick="goBack" />
+
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back" />
+
+    <!-- otp text -->
+    <TextView
+        android:id="@+id/otpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="OTP verification"
+        android:textColor="#DEA283"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoImage" />
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter the OTP sent to"
+        android:textColor="#d4d4d4"
+        android:textSize="20sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toStartOf="@id/instructionText1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otpText" />
+
+    <TextView
+        android:id="@+id/instructionText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="example@gmail.com"
+        android:textColor="#E2F163"
+        android:textSize="20sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toEndOf="@+id/instructionText"
+        app:layout_constraintTop_toBottomOf="@id/otpText" />
+
+
+    <!-- Instruction Text -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/otpText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </LinearLayout>
+
+
+    <!-- otp numbers -->
+    <LinearLayout
+        android:id="@+id/otp_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/caladea"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/instructionText1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/otp_layout"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/otp_box1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/otp_numbers"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toStartOf="@+id/otp_box2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructionText"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/otp_box2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/otp_numbers"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toStartOf="@+id/otp_box3"
+        app:layout_constraintStart_toEndOf="@id/otp_box1"
+        app:layout_constraintTop_toBottomOf="@+id/instructionText"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/otp_box3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/otp_numbers"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:inputType="number"
+        android:textSize="24sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toStartOf="@+id/otp_box4"
+        app:layout_constraintStart_toEndOf="@id/otp_box2"
+        app:layout_constraintTop_toBottomOf="@+id/instructionText1"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Submit Button -->
+
+    <EditText
+        android:id="@+id/otp_box4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="8dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/otp_numbers"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/otp_box3"
+        app:layout_constraintTop_toBottomOf="@+id/instructionText1"
+        tools:context=".OtpActivity"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/not_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Don’t receive code? "
+        android:textColor="#d4d4d4"
+        android:textSize="20sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintBottom_toTopOf="@+id/submit_button"
+        app:layout_constraintEnd_toStartOf="@id/resend"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="156dp"
+        android:text="Re-send"
+        android:textColor="#E2F163"
+        android:textSize="20sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/not_received"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/coninue_button"
+        android:onClick="visitpasswpordreset"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:fontFamily="@font/caladea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resend"
+        app:layout_constraintVertical_bias="0.166"
+        app:layout_constraintWidth_percent="0.6" />
+
+
+</android.support.constraint.ConstraintLayout>

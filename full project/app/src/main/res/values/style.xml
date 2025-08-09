@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Apply the text color of the query hint -->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <!-- Apply the color of the search icon -->
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+    </style>
+
+</resources>

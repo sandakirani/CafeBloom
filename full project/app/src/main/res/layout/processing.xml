@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Processing"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/textView_cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/lily_script_one"
+        android:gravity="center"
+        android:text="Cafe"
+        android:textColor="#A95C33"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView_bloom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/caladea"
+        android:text="Bloom"
+        android:textColor="#A95C33"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/textView_savour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/caladea"
+        android:text="Savor the flavour of sip"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <LinearLayout
+        android:id="@+id/sectionBar_orders"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        android:background="#3E3E3E"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Text over the section bar -->
+        <TextView
+            android:id="@+id/my_orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Orders"
+            android:fontFamily="@font/caladea"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!-- Horizontal LinearLayout for Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp">
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/processing"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Processing"
+            android:fontFamily="@font/caladea"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_button"/>
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/picked_up"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Picked Up"
+            android:fontFamily="@font/caladea"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:background="@drawable/unselected_buttons"/>
+
+        <!-- Button 3 -->
+        <Button
+            android:id="@+id/cancelled"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelled"
+            android:fontFamily="@font/caladea"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:background="@drawable/unselected_buttons"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        android:src="?attr/actionModeCloseDrawable"
+        android:tint="@android:color/white"
+        android:onClick="goBack" />
+
+
+
+            <ScrollView
+                android:id="@+id/scrollView_processing"
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="12dp"
+                android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+                android:fadeScrollbars="false"
+                tools:ignore="UnknownId"
+                android:scrollbarSize="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="250dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/myorders_processing_item"
+                        android:layout_width="380dp"
+                        android:layout_height="140dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounded_background"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/image_view_processing"
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/round_image"
+                            android:clipToOutline="true"
+                            android:contentDescription="My Image"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/iced_mocha" />
+
+                        <LinearLayout
+                            android:id="@+id/myorders_processing_item_details"
+                            android:layout_width="220dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rounded_background"
+                            android:orientation="vertical"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/processing_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="@font/caladea"
+                                android:text="Your order is Processing.."
+                                android:textColor="#DEA283"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/processing_item_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/caladea"
+                                android:gravity="center"
+                                android:text="Iced Mocha"
+                                android:textColor="#A95C33"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/processing_order_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="2dp"
+                                android:fontFamily="@font/caladea"
+                                android:gravity="center"
+                                android:text="Order ID : 4544882265"
+                                android:textColor="#FFFFFF"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/estimated_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="2dp"
+                                android:fontFamily="@font/caladea"
+                                android:gravity="center"
+                                android:text="Estimated Time: 2.30 p.m"
+                                android:textColor="#FFFFFF"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+

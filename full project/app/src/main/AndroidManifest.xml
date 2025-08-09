@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cafe_bloom">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CafeBloom"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".ForgetActivity"></activity>
+        <activity android:name=".OtpActivity"></activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".EditProfile"></activity>
+        <activity android:name=".PersonalInfo"></activity>
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".ChangeActivity"></activity>
+        <activity android:name=".LoginAgainActivity"></activity>
+        <activity android:name=".Processing"></activity>
+        <activity android:name=".PickedUp"></activity>
+        <activity android:name=".Canceled"></activity>
+        <activity android:name=".Western1"></activity>
+        <activity android:name=".Vanillacoke1"></activity>
+        <activity android:name=".Turmericlatte1"></activity>
+        <activity android:name=".Turkish1"></activity>
+        <activity android:name=".Tropicalfruit1"></activity>
+        <activity android:name=".Tropicalcoke1"></activity>
+        <activity android:name=".Stringhopper1"></activity>
+        <activity android:name=".Strawberrysensation1"></activity>
+        <activity android:name=".Spicecoke1"></activity>
+        <activity android:name=".Siphon1"></activity>
+        <activity android:name=".Signature1"></activity>
+        <activity android:name=".Seafood1"></activity>
+        <activity android:name=".Pourover1"></activity>
+        <activity android:name=".Peanutty1"></activity>
+        <activity android:name=".Pancake1"></activity>
+        <activity android:name=".Nutella1"></activity>
+        <activity android:name=".Mokapot1"></activity>
+        <activity android:name=".Milkrice1"></activity>
+        <activity android:name=".Matchalatte1"></activity>
+        <activity android:name=".Lemonmintcoke1"></activity>
+        <activity android:name=".Iconicchocolate1"></activity>
+        <activity android:name=".Cokefloat"></activity>
+        <activity android:name=".Icedmocha1"></activity>
+        <activity android:name=".Icedlatte1"></activity>
+        <activity android:name=".Icedcoconut1"></activity>
+        <activity android:name=".Icedcaremel1"></activity>
+        <activity android:name=".Icecappuccino1"></activity>
+        <activity android:name=".Hotlemon1"></activity>
+        <activity android:name=".Hotapple1"></activity>
+        <activity android:name=".Ginger1"></activity>
+        <activity android:name=".Frenchpress1"></activity>
+        <activity android:name=".Egghoppers1"></activity>
+        <activity android:name=".Cookies1"></activity>
+        <activity android:name=".Coldbrew1"></activity>
+        <activity android:name=".Classicvanilladreamshake1"></activity>
+        <activity android:name=".Classicicedcoke1"></activity>
+        <activity android:name=".Classiciced1"></activity>
+        <activity android:name=".Cherrycoke1"></activity>
+        <activity android:name=".Chemax1"></activity>
+        <activity android:name=".Chailatte1"></activity>
+        <activity android:name=".Avacadotoast1"></activity>
+        <activity android:name=".Affogato1"></activity>
+        <activity android:name=".Aeropress1"></activity>
+        <activity android:name=".HelpAndSupport"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".AddToCartActivity"></activity>
+        <activity android:name=".confirmorder"></activity>
+
+    </application>
+
+</manifest>
