@@ -63,10 +63,9 @@ Special thanks to all group members for their dedication and contributions:
 
 ---
 
-## 🎥 Demo Video
+## 📽️ Demo
 
-📽️ Watch our app in action:  
-[👉 Click here to view the demo](https://www.linkedin.com/posts/vihangi-sandakirani_androiddevelopment-kotlin-sqlite-activity-7318970347293204480-eIZ3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvXYMkB57HmQhefMC2-tLEEPej6tEDn7Xw)
+🎥 [Click here to watch the demo video](https://www.linkedin.com/posts/vihangi-sandakirani_androiddevelopment-kotlin-sqlite-activity-7318970347293204480-eIZ3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvXYMkB57HmQhefMC2-tLEEPej6tEDn7Xw)
 
 ---
 
