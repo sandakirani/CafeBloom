@@ -74,8 +74,7 @@ Special thanks to all group members for their dedication and contributions:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-
+   git clone https://github.com/sandakirani/CafeBloom.git
 2. Open in Android Studio
 3. Let Gradle sync and dependencies install
 4. Run the app using an Android Virtual Device (AVD) or a connected physical device
