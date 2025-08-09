@@ -32,12 +32,12 @@ The app uses **local data storage** through SQLite and was designed with **simpl
 
 ---
 
-## 💡 What We Learned
+## 🧠 What We Learned
 
-- 🤝 Power of **team collaboration**
-- 🔄 Real-world **version control** and Git integration
-- 🐛 Efficient **debugging under pressure**
-- 🔥 Importance of perseverance and teamwork
+-  Power of **team collaboration**
+-  Real-world **version control** and Git integration
+-  Efficient **debugging under pressure**
+-  Importance of perseverance and teamwork
 
 ---
 
