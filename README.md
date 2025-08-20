@@ -63,11 +63,12 @@ Special thanks to all group members for their dedication and contributions:
 
 ---
 
-## 📽️ Demo
+## 🎥 Project Demo
 
-🎥 [Click here to watch the demo video](https://www.linkedin.com/posts/vihangi-sandakirani_androiddevelopment-kotlin-sqlite-activity-7318970347293204480-eIZ3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvXYMkB57HmQhefMC2-tLEEPej6tEDn7Xw)
+<video src="https://github.com/user-attachments/assets/cde98b40-c069-4e60-b699-9a8f741bea26" controls width="700" autoplay muted loop></video>
 
 ---
+
 
 ## 📂 How to Run Locally
 
